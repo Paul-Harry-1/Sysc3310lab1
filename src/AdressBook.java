@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class AddressBook {
+public class AdressBook {
     List<BuddyInfo> books = new ArrayList<>();
 
     public void addBuddy(BuddyInfo info){
@@ -14,7 +14,7 @@ public class AddressBook {
 
     public static void main(String[] args){
         BuddyInfo buddy = new BuddyInfo("Tom", "Carleton", 613);
-        AddressBook adressBook = new AddressBook();
+        AdressBook adressBook = new AdressBook();
         adressBook.addBuddy(buddy);
         adressBook.removeBuddy(buddy);
     }
