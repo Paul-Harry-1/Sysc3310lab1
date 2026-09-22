@@ -13,7 +13,7 @@ public class AdressBook {
     }
 
     public static void main(String[] args){
-        Sytem.out.println("Adress book");
+        System.out.println("Adress book");
     }
 
 
